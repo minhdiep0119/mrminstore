@@ -48,7 +48,6 @@
   box-sizing: border-box;
 }
 
-html,
 
 h1,
 h2,
@@ -1089,46 +1088,7 @@ blockquote.blockquote .author {
 }
 
 /*----------------------------------------*/
-/*  02. Header CSS
-/*----------------------------------------*/
-header.header {
-  background-color: #ffffff;
-  position: static;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-}
 
-header.header.is-sticky {
-  position: fixed;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: slideInDown;
-  animation-name: slideInDown;
-  -webkit-animation-duration: 0.5s;
-  animation-duration: 0.5s;
-}
-
-header.header.is-sticky .header-top {
-  display: none;
-}
-
-header.header.is-sticky .header-bottom {
-  padding: 15px 0 10px;
-}
-
-/*-- Header Top --*/
-.header-top {
-  background-color: #ffffff;
-  line-height: 40px;
-  border-bottom: 1px solid #e5e5e5;
-  padding:  0;
-}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-top {
