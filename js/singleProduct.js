@@ -30,6 +30,7 @@ if (kt == -1) {
     text1 += '<div class="single-product-price"> <span class="price new-price">' + products[kt].price + '</span><span class="regular-price">    5.000.000</span></div>'
     text1 += '<div class="product-description"><p>Giày size ' + products[kt].size + '</p></div>';
     text2 += '<img src="../assets/images/' + products[kt].img + '" alt="">';
+    console.log(text1);
     document.getElementById('showProductDetail').innerHTML = text1;
     document.getElementById('lg-image').innerHTML = text2;
 }

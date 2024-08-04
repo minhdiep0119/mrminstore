@@ -52,9 +52,16 @@
           </form>
         </div>
         <span class="left"><a href="#">Advanced Search</a></span>
-        <div class="right"> <span class="cart"> <a href="#" class="cart-ico">&nbsp;</a> <strong>$0.00</strong> </span>
+        <div class="right" onclick="showgiohang()"> <span class="cart"> <a href="#" class="cart-ico">&nbsp;</a> <strong>$0.00</strong> </span>
           <span class="left more-links"> <a href="#">Checkout</a> <a href="#">Details</a> </span>
         </div>
+        <div class="showcart"  id="showgiohang"> 
+          <span class="close" onclick="closegiohang()">&times;</span>
+          <table class="danhsachsanpham">
+              <tbody id="danhsachsanpham"></tbody>
+          </table>
+          <p></p>
+      </div>
       </div>
       <div id="content">
         <div class="tabs">
@@ -136,5 +143,7 @@
 
 <script src="js/script.js"></script>
 <script src="js/product.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/cart-xl.js"></script>
 
 </html>

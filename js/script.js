@@ -41,7 +41,7 @@ function openTabs(evt, tabs) {
 
 
 
-//Modal 
+//Modal addProduct
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
@@ -59,5 +59,24 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 }
+//Modal cart
+var modal = document.getElementById("myCart");
+var btnocart = document.getElementById("myBtnCart");
+var span = document.getElementsByClassName("close")[0];
+
+btnocart.onclick = function () {
+    modal.style.display = "block";
+}
+
+span.onclick = function () {
+    modal.style.display = "none";
+}
+
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 
 
+//Login
