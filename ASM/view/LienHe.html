@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Assignment - PS38099 - Nguyễn Hà Xuân Nguyên</title>
+</head>
+<body>
+<!--/ Header -->
+
+<div class="header">
+    <div class="hotline"> Hotline 0397843145 </div>
+    <div class="cart" onclick="showgiohang()"><a href="#" class="cart-icon"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></div>
+    <div class="showcart"  id="showgiohang"> 
+        <table class="danhsachsanpham">
+            <tbody id="danhsachsanpham"></tbody>
+        </table>
+        <p></p>
+    </div>
+</div>
+<nav>
+    <div class="top-nav">
+        <div class="top-nav-Left">
+            <ul>
+                <li><a href="../index.html">Trang chủ</a></li>
+                <li><a href="../view/GioiThieu.html" >Giới thiệu</a></li> 
+                <li><a href="../view/SanPham.html" >Sản phẩm</a> 
+                    <ul>
+                        <li><a href="">Sản phẩm khuyến mãi</a></li>
+                        <li><a href="">Sản phẩm mới</a></li>
+                        <li><a href="">Sản phẩm bán chạy</a></li>    
+                    </ul>            
+                </li>        
+                <li><a href="../view/Blog.html" >Blog</a></li> 
+                <li><a href="../view/LienHe.html" >Liên hệ</a></li> 
+                <li><a href="../view/HoiDap.html" >Hỏi đáp</a></li> 
+            </ul>
+        </div>
+
+        <div class="top-nav-Right">
+
+            <ul>
+            <li><a href="./DangNhap.html">Đăng Nhập</a></li> 
+            <li><a href="../view/DangKy.html">Đăng Ký</a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<!-- contents -->
+<section>
+    <article>
+        <!-- left contents -->
+        <div class="box-content">
+            <div class="head-title" style="margin-bottom: 10px;">
+                <h3>Liên hệ</h3>
+            </div>    
+            <div class="content-detail">
+                <!-- form liên hệ -->
+                <!-- họ tên/ điện thoại/ email/ ô text nhập thông tin liên hệ-->
+                <!-- bản đồ đến shop -->
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.3594098302374!2d106.616067222244!3d10.86024443952375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752b0e92aea793%3A0xa6cc32a82065ffe3!2zU2hvcCBRdeG6p24gw4FvIE7hu68gc-G7iSAmIGzhursgVGjDunkgT2FuaA!5e0!3m2!1sen!2s!4v1718093890950!5m2!1sen!2s" width=100% height=500 style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            </div>
+        </div>
+    </article>
+    <aside>
+        <!-- right contents -->
+        <div class="box-content">
+            <div class="head-title">
+                <h3>DANH MỤC SẢN PHẨM</h3>
+            </div>  
+            <ul class="aside-menu">
+                <li><a href="" >ÁO</a></li>
+                <li><a href="" >ĐẦM</a></li>
+                <li><a href="" >QUẦN</a></li>
+                <li><a href="" >CHÂN VÁY</a></li>
+                <li><a href="" >PHỤ KIỆN</a></li>            
+            </ul>
+        </div>
+    </aside>
+</section>
+
+<footer>
+    <div>Copyright 2024 Fpoly.</div>    
+
+</footer>
+</body>
+</html>
+<script src="../js/sanpham.js"></script>
+<script src="../js/giohang.js"></script>
+<script src="../js/xL_giohang.js"></script>

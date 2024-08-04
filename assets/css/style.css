@@ -89,7 +89,7 @@ h1#logo a {
     display: block;
     height: 61px;
     text-indent: -4000px;
-    background: url(images/logo.gif);
+    background: url(../images/logo.gif);
 }
 
 #navigation {
@@ -169,6 +169,10 @@ h1#logo a {
     overflow: hidden;
 }
 
+.image-slider .none{
+    display: none;
+}
+
 #slider-holder ul li {
     width: 980px;
     height: 418px;
@@ -190,19 +194,19 @@ h1#logo a {
 }
 
 #slider-nav a.prev {
-    background: url(images/prev.gif);
+    background: url(../images/prev.gif);
     left: 0;
 }
 
 #slider-nav a.next {
-    background: url(images/next.gif);
+    background: url(../images/next.gif);
     right: 0;
 }
 
 
 #main {
     width: 100%;
-    background: url(images/main.gif) repeat-x 0 0;
+    background: url(../images/main.gif) repeat-x 0 0;
 }
 
 .options {
@@ -214,7 +218,7 @@ h1#logo a {
 .options .search {
     float: left;
     padding: 6px 0 0 0;
-    background: url(images/border.gif) repeat-y right 0;
+    background: url(../images/border.gif) repeat-y right 0;
     height: 33px;
     margin-right: 12px;
 }
@@ -223,7 +227,7 @@ h1#logo a {
     float: left;
     width: 191px;
     height: 21px;
-    background: url(images/field.gif);
+    background: url(../images/field.gif);
     padding: 6px 5px 0 5px;
 }
 
@@ -241,7 +245,7 @@ h1#logo a {
     line-height: 0;
     width: 24px;
     height: 27px;
-    background: url(images/search.gif);
+    background: url(../images/search.gif);
     text-indent: -4000px;
     border: 0;
     margin-left: 9px;
@@ -283,7 +287,7 @@ h1#logo a {
     float: left;
     width: 95px;
     height: 36px;
-    background: url(images/cart-price.gif);
+    background: url(../images/cart-price.gif);
     text-align: right;
     font-size: 20px;
     color: #701616;
@@ -295,7 +299,7 @@ h1#logo a {
     float: left;
     width: 47px;
     height: 36px;
-    background: url(images/cart.gif) no-repeat 0 0;
+    background: url(../images/cart.gif) no-repeat 0 0;
     font-size: 0;
     line-height: 0;
     text-indent: -4000px;
@@ -310,6 +314,9 @@ h1#logo a {
     height: 36px;
 }
 
+.none {
+    display: none;
+}
 .tabs ul {
     list-style-type: none;
     font-size: 14px;
@@ -327,7 +334,7 @@ h1#logo a {
 .tabs ul li a span {
     float: left;
     height: 36px;
-    background: url(images/tab.gif) no-repeat 0 -37px;
+    background: url(../images/tab.gif) no-repeat 0 -37px;
     padding: 0 0 0 20px;
 }
 
@@ -364,7 +371,7 @@ h1#logo a {
 }
 
 #container {
-    background: #fff url(images/container-t.gif) no-repeat 0 0;
+    background: #fff url(../images/container-t.gif) no-repeat 0 0;
     padding: 30px 20px;
 }
 

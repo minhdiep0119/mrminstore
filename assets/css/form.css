@@ -50,7 +50,9 @@ body {
   input[type="submit"]:hover {
     background-color: #4cae4c;
   }
-  
+ 
+
+
   /* Style for invalid input */
   input:invalid {
     border-color: black;
