@@ -79,7 +79,6 @@ function submitsp() {
     }
     let spf = new product.khoitao(id, price, brandName, size, img);
     products.push(spf);
-    console.log(products);
     document.getElementById('showproduct1').innerHTML = product.xuatsp(products);
     document.getElementById('showproduct2').innerHTML = product.xuatsp(products);
     document.getElementById('showproduct3').innerHTML = product.xuatsp(products);

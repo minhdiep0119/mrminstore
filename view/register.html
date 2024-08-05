@@ -16,14 +16,14 @@
             <label for="email">Email Address</label>
             <div class="sec-2">
                 <ion-icon name="mail-outline"></ion-icon>
-                <input type="email" name="email" placeholder="" />
+                <input type="email" name="email" id="email" placeholder="" />
             </div>
         </div>
         <div class="password">
             <label for="password">Password</label>
             <div class="sec-2">
                 <ion-icon name="lock-closed-outline"></ion-icon>
-                <input class="pas" type="password" name="password" placeholder="" />
+                <input class="pas" type="password" name="password" id="mk" placeholder="" />
                 <ion-icon class="show-hide" name="eye-outline"></ion-icon>
             </div>
         </div>
@@ -35,9 +35,9 @@
                 <ion-icon class="show-hide" name="eye-outline"></ion-icon>
             </div>
         </div>
-        <a href="login.html"><button class="login">Sign up </button></a>
+        <a href="#"><button class="login" onclick=" newAcc(this) ">Sign up </button></a>
     </div>
 
 </body>
-
+<script src="../js/login.js"></script>
 </html>

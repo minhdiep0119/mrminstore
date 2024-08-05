@@ -35,11 +35,10 @@ function kiemtragiohang(masp,giohangs){
 function chonhang(x){
     
     var the = x.parentElement;
-   
-     var hinh = the.children[0].children[0].src;
-     console.log(the)
+    var hinh = the.children[0].children[0].src;
     var tensp = 'Nike';
-    var gia = the.children[2].innerText;
+    var gia = the.children[2].innerText.slice(17);
+    console.log(gia)
      var masp = the.children[1].innerText.slice(13, 19);
     var soluong = 1;
     let vitri = kiemtragiohang(masp,giohangs);
@@ -55,7 +54,7 @@ function chonhang(x){
 }
 
 
-function xoatgiohang(x){
+function xoagiohang(x){
     var the = x.parentElement.parentElement;
     console.log(the.children[0].children[0].innerText);
     let masp = the.children[0].children[0].innerText;
